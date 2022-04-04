@@ -1,4 +1,4 @@
-# Storybook issue report
+# [Storybook issue report](https://github.com/storybookjs/storybook/issues/17877)
 
 ### Welcome to my issue report, after spending ~10 hours investigating mysterious browser hangs on specific stories.
 
@@ -22,3 +22,8 @@ const storyWrap = storyFn => (_, storyArgs) => storyFn(storyArgs)
 
 storiesOf(...).add('Render slow', storyWrap(() => ...
 ```
+
+
+
+https://user-images.githubusercontent.com/845031/161569112-096c2ebf-316d-47a2-88ef-29a3afad272e.mp4
+
