@@ -7,6 +7,8 @@ So I dug and dug... Narrowing things down. Eliminating hypophyses one after the 
 
 Please clone, install dependencies and run *storybook*
 
+---
+
 There are two stories (in a single story file), and some explenations in the sourcecode.
 Once live, click to switch between the stories and you'll notive the performance issue on the "slow" story.
 
