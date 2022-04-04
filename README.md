@@ -12,3 +12,11 @@ Once live, click to switch between the stories and you'll notive the performance
 
 I've narrowed it down to `@storybook/addon-essentials`, which is a common addon collection, and within it
 to the `docs` & `controls` addons. When both are disabled, this issue does not occur. 
+
+For some reason, this **only** happens for stories which are wrapped with:
+
+```js
+const storyWrap = storyFn => (_, storyArgs) => storyFn(storyArgs)
+
+storiesOf(...).add('Render slow', storyWrap(() => ...
+```
