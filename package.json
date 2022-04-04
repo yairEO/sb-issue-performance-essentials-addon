@@ -1,0 +1,28 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@mdx-js/react": "^1.6.22",
+    "@storybook/addon-actions": "^6.5.0-alpha.55",
+    "@storybook/addon-docs": "^6.5.0-alpha.55",
+    "@storybook/addon-essentials": "^6.5.0-alpha.55",
+    "@storybook/addon-interactions": "^6.5.0-alpha.55",
+    "@storybook/addon-links": "^6.5.0-alpha.55",
+    "@storybook/react": "^6.5.0-alpha.55",
+    "@storybook/testing-library": "^0.0.9",
+    "babel-loader": "^8.2.4",
+    "prop-types": "^15.8.1"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
