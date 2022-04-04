@@ -9,8 +9,8 @@ module.exports = {
 		{
 			name: '@storybook/addon-essentials',
 			options: {
-				docs: false,
-				controls: false,
+				docs: true,     // set to false to eliminate the issue
+				controls: true, // set to false to eliminate the issue
 				actions: true,
 				backgrounds: true,
 				viewport: true,
